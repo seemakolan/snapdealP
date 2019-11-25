@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #eee;
+}
+
+#headerSection {
+    background: #726d6f;
+    height: 100px;
+    /* box-shadow: inset 41px 47px 57px 6px #111; */
+}
+
+#headerSection .marginleftandrightspace,
+.logoandcartSection>article, #ContentSection>article {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.topMenu {
+    background: #c6003d;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    height: 30px;
+    line-height: 28px;
+    font-size: 12px;
+}
+.topMenu p {
+    margin: 0;
+
+}
+.rightUlMenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.rightUlMenu li {
+    display: inline-block;
+}
+
+.rightUlMenu li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 12px;
+
+}
+
+.leftpara {
+    width: 50%;
+    float: left;
+}
+
+
+/* 
+logoandcartsection css */
+
+.logoandcartSection>article .logo {
+    width: 17%;
+    float: left;
+    position: relative;
+    top:18px;
+}
+
+.logoandcartSection>article .search {
+    width: 63%;
+    float: left;
+    line-height: 70px;
+}
+
+.logoandcartSection>article .cart {
+    width: 20%;
+    float: right;
+    line-height: 70px;
+    
+}
+#search{
+    width: 70%;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 2px;
+    background:#fff;/*to make bakground tranparent use rgba*/
+    color:#909090;
+}
+.searchText{
+    padding:8px 30px;
+    background: #111;
+    color:#fff;
+    border-radius: 0px 3px 3px 0px; /* only top and bottom radius is required*/
+    margin:0px -5px;
+    position: relative;
+    top:1px;
+
+}
+#insideDiv{
+    display: none;
+}
+.rightNavigation{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+ .rightNavigation li{
+    display:inline-block;
+    
+}
+.rightNavigation li a{
+    padding:26px;
+    color: white;
+    font-size:16px;
+    text-decoration: none;
+}
+.rightNavigation li:nth-child(2):hover{
+    background: #111;
+    display: block;
+}
+.rightNavigation li:nth-child(2):hover>#insideDiv{
+    background: #111;
+    display: table-cell;
+  /*  display: inline-block;*/
+
+}
+
+/*
+.fa-shopping-cart{
+    font-size: 24px;
+}
+
+.fa-user{
+     padding:15px 17px;
+     background: #cd003f;
+     color:#fff;
+     border-radius: 22px;
+     margin:0px -5px;
+     position: relative;
+     top:1px;
+     margin:-2px;
+
+}*/
+
+
+#ContentSection{
+margin-top: 105px;
+height:100vh;
+}
+.contentLeft{
+    width:20%;
+    float: left;
+    background: white;
+    /* box-shadow: 21px 6px 25px 10px #111 */
+}
+.contentMiddle{
+    width:56%;
+    float: left;
+    background: white;
+    margin: 0 2% ;
+}
+
+.contentRight{
+    width:20%;
+    float: left;
+    background: white;
+}
+
+.menuList{
+    padding:15px;
+    margin: 0;
+    list-style: none;
+}
+.menuList li a{
+    color:#111;
+    text-decoration: none;
+    padding:10px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight:lighter;
+    width: 100%;
+}
+.contentLeft h5{
+    padding:15px;
+    margin: 0;
+    font-size: 12px;
+    font-weight:lighter;
+
+}
+.menuList li a:hover{
+    border-left: 3px solid red;
+    background: #eee;
+    transition: ease-in-out all 0.5s;
+
+}
+
+.icons_images{
+    height: 37px;
+    width: 37px;
+    background-repeat: no-repeat;
+    display:inline-block ;
+}
+.all_offers_icons{
+    background: url('../images/Discount_Right_icon-f5105.png');
+    background-size: cover;/*important for diplaying entire image*/
+}
+.Mobile_Tablets_icons{
+    background-size: cover;
+    background:url(../images/30x30mobile2.png)
+
+}
+.Electronics_icons{
+    background:url(../images/Electronic-6212c.png);
+    background-size: cover;
+}
+.Computers_Gaming_icons{
+    background: url(../images/ComputerGaming-a02cf.png);
+    background-size: cover;
+}
+.Home_Kitchen_icons{
+    background:url(../images/Homekitchenfurnishing-3eda1.jpg);
+    background-size: cover;
+}
+/*
+.contentMiddle h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    padding: 10px 64px;
+    text-align: center;
+    text-shadow:5px 2px 4px #e40046;
+    transform: skew(-30deg,10deg);
+    opacity: 0.2;
+    
+}
+.contentMiddle{
+    display: none;
+    float:none;
+
+}
+
+#dispaly{
+    clear: both;//to remove left and right float
+    background: yellow;
+    color:#111;
+    border:1px solid #111;
+    padding:10px;
+    //display: none;
+    //visibility: hidden;
+  //  text-indent: ;
+    height :100px;
+    width:100px;
+    overflow: scroll;
+    //for scrolling use height for apply overflow 
+    
+}
+.test{
+    filter:grayscale(1);
+    float: left;
+}
+*/
